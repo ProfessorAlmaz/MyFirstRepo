@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #37ff00;
+  display: flex;
+  justify-content: 
+  space-between;
+  align-items: center;
+  padding: 0 8%;
+  box-shadow: 0 8px 20px #000;
+
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  transition: .5s;
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+}
+
+header nav ul li a {
+  padding: 30px;
+  color: #000;
+  font-size: 25px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  transform: scale(1.2);
+  color: #0026ff;
+  
+}
+
+.rectangle-1 {
+    margin-top: 200px;
+    width: 200px;	height: 400px; /* Размеры */
+    background: #ffffff; /* Цвет фона */
+    outline: 4px solid #37ff00; /* Внешняя рамка */
+    border: 3px solid #fff; /*Внутренняя рамка */
+    border-radius: 5px; /* Радиус скругления */   
+    align-items: center;
+  }
+
+.package-name {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #0026ff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 35px;
+  color:rgb(0, 106, 204);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+
+.price {
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #01074a;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #01074a;
+}
